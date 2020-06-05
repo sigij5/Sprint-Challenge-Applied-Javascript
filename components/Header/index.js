@@ -27,7 +27,7 @@ function Header() {
 
     header.append(date, title, temp)
 
-    return document.body.appendChild(header)
+    return document.querySelector('div.header-container').appendChild(header)
 }
 
 Header();
